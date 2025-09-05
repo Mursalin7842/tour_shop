@@ -10,9 +10,19 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@tailwindcss/vite": "^4.1.13",
+    "//": "Redux Toolkit is the recommended way to write Redux logic.",
+    "@reduxjs/toolkit": "^2.9.0",
+    "//": "A utility for making HTTP requests to the backend API.",
+    "axios": "^1.11.0",
+    "//": "The core React library.",
     "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "//": "Provides DOM-specific methods for React.",
+    "react-dom": "^19.1.1",
+    "//": "Official React bindings for Redux.",
+    "react-redux": "^9.2.0",
+    "//": "Middleware for Redux that allows you to write action creators that return a function instead of an action.",
+    "redux-thunk": "^3.1.0",
+    "@tailwindcss/vite": "^4.1.13"
   },
   "devDependencies": {
     "@eslint/js": "^9.33.0",
